@@ -1,0 +1,64 @@
+body{
+    margin: auto;
+}
+
+.header,.footer{
+    padding-top: 25px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: azure;
+    font-size: 22px
+}
+
+.bodyheader{
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.inbody{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.bodypage{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: brown;
+    width: 65%;
+    height: 500px;
+}
+
+.leftpage{
+    padding-top: 10px;
+    font-size: 18px;
+    width: 15%;
+}
+
+.p1,.p2,.p3,.p4{
+    border-style: double;
+    background-color: darkgray;
+}
+
+.rightpage{
+    padding-top: 10px;
+    width: 15%;
+}
+
+.img{
+    padding-top: 30px;
+    height: 200px;
+    width: 200px
+}
+
+p1{
+   font-size: 18px; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
